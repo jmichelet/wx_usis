@@ -2,6 +2,7 @@
 
 This Python software aims in driving an USIS-compliant spectroscope. So far, only the UVEX supports this protocol, so it has only been tested against this model.
 It relies on the WX graphics library ( https://wxpython.org/ ), which provides a cross-platform GUI toolkit.
+For accessing the device, this application uses the USIS protocol, as described in the https://github.com/Shelyak-Instruments/USIS-Protocol/blob/main/USIS-specification.md document.
 
 ## Supported OS and Python
 | OS            | Python                      | Notes                                                                                      |
